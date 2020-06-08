@@ -2,7 +2,7 @@ import React from 'react';
 import shortid from 'shortid';
 import Card from './components/Card/Card';
 import Header from './components/Header/Header';
-import cards from './cards';
+import cards from './data/cards';
 import './App.css';
 
 export default function App() {
