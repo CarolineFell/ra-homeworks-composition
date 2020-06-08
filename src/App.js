@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import shortid from 'shortid';
+import Card from './components/Card/Card';
+import Header from './components/Header/Header';
+import cards from './cards';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+export default function App() {
+  return (<>
+  <Header />
+      { cards.map((o) => 
+        <Card img={o.img} key={shortid.generate()}>
+          {<h5 className="card-title">{o.title || 'Card title'}</h5>}
+          {o.text && <p className="card-text">{o.text}</p>}
+          {<a href={o.btnHref || '#'} className="btn btn-primary">{o.btnText || 'Go somewere'}</a>}
+        </Card>
+      ) }
+    </>
   );
 }
-
-export default App;
