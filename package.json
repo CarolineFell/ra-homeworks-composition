@@ -2,7 +2,7 @@
   "name": "ra-homeworks-composition",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/CarolineFell/ra-homeworks-composition",
+  "homepage": "https://carolinefell.github.io/ra-homeworks-composition/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
