@@ -35,19 +35,11 @@
       "last 1 safari version"
     ]
   },
-  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/h0bijr372g2jeuwd/branch/master?svg=true)](https://ci.appveyor.com/project/CarolineFell/ra-homeworks-composition/branch/master)",
   "main": "index.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CarolineFell/ra-homeworks-composition.git"
-  },
   "keywords": [
     "composition"
   ],
   "author": "CarolineFell",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CarolineFell/ra-homeworks-composition/issues"
-  }
+  "license": "ISC"
 }
